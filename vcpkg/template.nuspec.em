@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rmw-implementation-cmake</id>
-    <version>0.7.2</version>
-    <title>ros-dashing-rmw-implementation-cmake</title>
-    <authors></authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>CMake functions which can discover and enumerate available implementations.</description>
+    <description>@(Description)</description>
     <dependencies>
-			<dependency id="ros-dashing-ament-cmake"/>
-			<dependency id="ros-dashing-ros-workspace"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
