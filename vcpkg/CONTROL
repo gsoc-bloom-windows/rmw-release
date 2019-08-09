@@ -1,4 +1,0 @@
-Source: ros-dashing-rmw
-Version: 0.7.2
-Description: Contains the ROS middleware API.
-Build-Depends:
